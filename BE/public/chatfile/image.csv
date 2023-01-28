@@ -1,0 +1,144 @@
+﻿current_index,message,options,nextIndex
+1,What is your name?,"[]",2
+2,What gender do you identify as?,"[ 
+        ""Male"", 
+        ""Female"", 
+        ""other""
+    ]",3
+3,What is your age?,"[]",4
+4,Please specify your ethnicity,"[
+        ""Caucasian"", 
+        ""African-American"",
+        ""Latino or Hispanic"", 
+        ""Asian"",
+        ""Native American"", 
+        ""Native Hawaiian or Pacific Islander"",
+        ""Two or More"", 
+        ""Other"", 
+        ""Prefer not to say""
+]",5
+5,Where is your home located?,"[
+        ""North America/Central America"", 
+        ""South America"",
+        ""Europe"",
+        ""Africa"",
+        ""Asia"", 
+        ""Australia"",
+        ""Caribbean Islands"", 
+        ""Pacific Islands"", 
+        ""Other"", 
+        ""Prefer not to say""
+]",6
+6,What is the highest degree or level of education you have completed?,"[
+        ""Some High School"", 
+        ""High School"",
+        ""Bachelor's Degree"", 
+        ""Master's Degree"",
+        ""Ph.D. or higher"", 
+        ""Trade School"",
+        ""Prefer not to say""
+]",7
+7,Are you married?,"[ 
+        ""Yes"", 
+        ""No"", 
+        ""Prefer not to say""
+    ]",8
+8,What is your current employment status?,"[ 
+        ""Employed Full-Time"", 
+        ""Employed Part-Time"", 
+        ""Seeking opportunities"", 
+        ""Retired"", 
+        ""Prefer not to say""
+    ]",9
+9,How many children do you have?,"[ 
+        ""None"", 
+        ""1"", 
+        ""2-4"", 
+        ""More than 4"", 
+        ""Prefer not to say""
+    ]",10	
+10,What is Kevell Care ?,"[ 
+        ""Kevell Care is a health care product helping you to diagnose without in person visit with a doctor.""
+    ]",11
+11,How is it possible ?,"[ 
+        ""By utilising the following options: Kiosk,Home Kit,Smart Kiosk,smart Watch""
+    ]",12
+12,What is Kiosk ?,"[ 
+        ""Kiosk is a high quality, secured computer connected with medical devices & connected with the doctor remotely.""
+    ]",13
+13,What is Home Kit ?,"[
+        ""Home Kit is a medical devices enabled Kit connected with the doctor remotely; it empowers customers to monitor their health at home.""
+    ]",14
+14,What is SmartKiosk ?,"[
+        ""Kevell Care enables your home television as Smart Kiosk by installing our app inside; so from home by sitting on the couch itself the customer can get connected with the scheduled doctor.""
+    ]",15
+15,What is a Smart Watch ?,"[
+        ""With our Kevell Care App, your smart watch can connect with the doctor and be able to monitor your health,communicate with the doctor.""
+    ]",16
+16,What kind of medical devices are available in Kiosk or Home Kit or Smart or Kiosk or Smart Watch ?,"[
+        ""Electronic Stethoscope,Thermometer,Blood Pressure Monitor,Pulse Oximeter,ECG,Glucometer""
+    ]",17
+17,What is an Electronic Stethoscope ?,"[ 
+        ""Electronic Stethoscope is a medical device; used to listen to the sounds made by the heart, lungs or intestines; the audio will be sent to the doctor app for further diagnosis.""
+    ]",18
+18,What is Thermometer ?,"[ 
+        ""The electronic thermometer is used to measure the customer's body temperature; the temperature value will be sent to the doctor app for further diagnosis.""
+    ]",19
+19,What is a Blood Pressure Monitor ?,"[ 
+        ""To measure blood pressure, Kevell Care Doctor calls the device remotely; these medical devices used to get systolic and diastolic pressure and pulse rate of a customer."" 
+    ]",20
+20,What is Pulse Oximeter ?,"[ 
+        ""The bluetooth enabled oximeter helps to measure customer's blood oxygen saturation levels and send the data to the doctor through Kevell Care Apps.""
+    ]",21
+21,What is Glucometer ?,"[ 
+        ""Glucometer checks customer's blood sugars and the reading will be sent to a remote doctor for further diagnosis.""
+    ]",22
+22,What is ECG ?,"[ 
+        ""The ECG device allows the physician to measure the customer's heart rhythm remotely and the data will be sent to the doctor and shown as a ECG graph for further diagnosis by the doctor.""
+    ]",23
+23,How to register with Kevell Care ?,"[ 
+        ""Go to https://kevell.care/ and register with your demographic, insurance and emergency contact details.""
+    ]",24
+24,How to get an appointment with an online doctor ?,"[ 
+        ""After successful registration, the customer can book a doctor on the same online page itself.""
+    ]",25
+25,Is it possible to upload my medical records ?,"[ 
+        ""During registration or post registration, the customer can upload their medical records in PDF formats.""
+    ]",26
+26,May I consult a UK doctor from India ?,"[ 
+        ""Yes; The customer can connect with expert doctors from anywhere in the world.""
+    ]",27
+27,Can I book a doctor on a specific date and time ?,"[ 
+        ""Yes""
+    ]",28
+28,Can I choose a doctor based on speciality?,"[ 
+        ""Yes""
+    ]",29
+29,How do I know a specific doctor can treat well ?,"[ 
+        ""During appointment, you can check specific doctor's profile, Fees, Ratings and User Comments.""
+    ]",30
+30,How do I get a prescription from a doctor ?,"[ 
+        ""At Kiosk, the prescription will get printed and given to you; also the prescription will be sent over email.""
+    ]",31
+31,How to communicate with an online doctor ?,"[ 
+        ""In all our apps (Kiosk, Home Kit, Smart Kiosk & Smart Watch) video conference is available; if required, a doctor will call the video conference and communicate with the customer.""
+    ]",32
+32,In an emergency can I connect with an online doctor ?,"[ 
+        ""Yes; using the patient app, the customer can connect with the doctor.""
+    ]",33
+33,How does the doctor diagnose the customer with the medical devices ?,"[ 
+        ""The doctor can connect the doctor app with a customer app (Kiosk, Home Kit, Smart Kiosk & Smart Watch) and call the specific medical devices through online commands.""
+    ]",34
+34,How does the doctor know the medical device readings ?,"[ 
+        ""The readings taken from medical devices will be show to customer app and doctor app""
+    ]",35
+35,How accurate are the medical device readings?,"[ 
+        ""Kevell Care ensures 100% accuracy of medical devices.""
+    ]",36
+36,Can I access Kevell Care any time ?,"[ 
+        ""Yes, Kevell Care ensures 24/7 support specialist doctors all around the world.""
+    ]",37
+37,Is in-person visit required to consult with a doctor ?,"[ 
+        ""No in-person visit required if customer connect with Kevell Care""
+    ]",0
+0,Thank you for visting Kevell care,"[]",1

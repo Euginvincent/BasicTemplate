@@ -1,0 +1,369 @@
+
+.navbar-nav .dropdown-toggle::after {
+    /* display: inline-block; */
+    margin-left: 5px !important;
+    display:none;
+    /* vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent; */
+}
+
+.seperate-line{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-container::after {
+    bottom: 0;
+}
+
+.css-1okebmr-indicatorSeparator{
+display: none;
+}
+
+.nav-link i {
+    margin-top: 2px;
+    position: relative;
+    top: 2px;
+}
+
+.nav-link img {
+    margin-top: -3px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.menu-right {
+    display: flex;
+}
+
+.menu-right .nav-link {
+    color: #1D293F;
+}
+
+.menu-phone span {
+    width: 100%;
+}
+
+.menu-phone-item {
+    display: flex;
+}
+
+.phone-item {
+    margin-top: -8px;
+}
+
+.phone-item img {
+    position: relative;
+    top: 8px;
+    margin-right: 6px;
+}
+
+.phone-item b {
+    margin-top: 3px;
+    display: inline-block;
+}
+
+.trial-item {
+    margin-left: 20px;
+}
+
+.signin {
+    margin-left: 20px;
+}
+
+.phone-wrapper {
+    margin-left: 20px;
+}
+
+.footer-container {
+    background-color: #010E28;
+    position: relative;
+    background-image: url(../images/footer-bg.svg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.footer-container::after {
+    position: absolute;
+    content: '';
+    background-image: url(../images/footer-shape.svg);
+    right: 0;
+    bottom: 130px;
+    width: 130px;
+    height: 539px;
+}
+
+ul,
+ol {
+    padding: 0 !important;
+    margin: 0;
+}
+
+.footer-icon {
+    display: flex;
+}
+
+.footer-icon li {
+    margin-right: 10px;
+}
+
+.footer-icon li a {
+    color: #7B7B93;
+    border: 2px solid #7B7B93;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    line-height: 35px;
+}
+
+.footer-icon li a:hover {
+    background-color: #0075FF;
+    border-color: #0075FF;
+}
+
+.footer-icon li a:hover i {
+    color: #fff;
+}
+.invoice-menu-icon { width: 24px; margin-left: 0px; }
+
+.nav-tabs .nav-item .nav-link { color: #72777A; font-size: 18px; }
+.tab-content { background-color: #fff; padding: 20px 3px 20px 3px; border-radius: 0px 0px 6px 6px; }
+
+@media (max-width:1400px) and (min-width:992px) {
+    .nav-align {
+        font-size: 12px;
+        margin-left: 8px;
+    }
+
+    .footer-container::after {
+        bottom: 0;
+    }
+}
+
+.css-1okebmr-indicatorSeparator{
+    display: none;
+}
+
+
+.upload-table fieldset{
+padding: 0px !important;
+height: 50px;
+font-size: 14px;
+font-family: Helvetica Neue;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+#matterName input{
+height: 35px;
+font-size: 13px;
+}
+
+#matterId input{
+font-size: 14px;
+}
+
+.req-field-upload{
+margin-bottom: 10px;
+}
+#matterId {
+height: 50px;
+width: 100%;
+padding: 0px 10px ;
+border-radius: 5px;
+}
+
+#corporates input{
+height: 35px;
+}
+
+#corporateOffice input{
+    height: 35px;
+    }   
+#lawfirmMatterName input{
+height: 35px;
+
+}     
+
+#lawfirmMatterName input { font-size: 16px; }
+
+@media (min-width:1100px) {
+div#myTabContent .clients {
+        /* margin-top: -38px;
+        margin-bottom: 10px; */
+}
+}
+
+.control-style{
+width: 100%!important;
+font-size: 14px!important;
+
+}
+.control-style-select{
+text-indent:5px !important;
+}
+
+.control-style-select1{
+text-indent:5px !important;
+font-size: 12px!important;
+padding-bottom: 1px;
+
+}
+#phonecode input {
+height: 32px !important;
+}
+.btn-save-update{
+font-size: 14px!important;
+float: right;
+margin-right: 3%;
+/* color:#fff */
+}
+
+.cor-header{
+font-size: 18px;
+margin-left: 10px;
+margin-top: 3%;
+}
+
+.control-style{
+width: 100%!important;
+font-size: 14px!important;
+}
+.control-style-address{
+width: 100%!important;
+font-size: 14px!important;
+}
+.control-style-select-address{
+text-indent:5px !important;
+}
+.control-style-select{
+text-indent:5px !important;
+}
+.control-style-select-float{
+height: 40px!important;
+}
+.tab-style-corp{
+font-size: 14px!important;
+}
+#corporateOffice{
+width: 100%!important;
+height: 10% !important;
+font-size: 14px!important;
+}
+
+.inputtable-data input{
+height: 15px;
+}
+.select-role input { height: 35px !important; }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+font-family: 'Helvetica Neue';
+}
+.formatted-table table tr {
+border-bottom: 1px solid #DADADA;
+}
+.formatted-table table {
+background-color:#fff;
+}
+.formatted-table table th{
+height: 50px;
+vertical-align: middle;
+text-align: left;
+vertical-align: middle;
+border: none;
+font-size: 15px;
+}
+.formatted-table table td{
+height: 50px;
+vertical-align: middle;
+padding: 3px 8px 3px 15px;
+}
+.formatted-table table tbody tr:nth-child(2n + 1){
+background-color:#f9f9f9;
+border-bottom:1px solid #DADADA;
+}
+.add-additional{
+/* margin-left: 65.363333%; */
+}
+.additionalformcontrol .card-body {
+padding: 0;
+vertical-align: top;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+align-content: center;
+}
+
+.additionalformcontrol.card {
+border: none;
+box-shadow: none;
+vertical-align: top;
+margin-top: 30px;
+}
+.additionalformcontrol.card + .additionalformcontrol.card {
+margin-top: 0;
+}
+.additionalformcontrol  input.form-control {
+max-width: calc(100% - 50px);
+}
+
+.additionalformcontrol button.close-icon.btn.btn-danger {
+margin: 0;
+line-height: 1;
+padding: 10px 13px;
+position: relative;
+right: -10px;
+top: 0px;
+}
+.css-6j8wv5-Input {
+margin: 0px;
+padding-bottom: 0px;
+padding-top: 0px;
+visibility: visible;
+color: hsl(0, 0%, 20%);
+-webkit-flex: 1 1 auto;
+-ms-flex: 1 1 auto;
+flex: 1 1 auto;
+display: inline-grid;
+grid-area: 1/1/2/3;
+grid-template-columns: 0 min-content;
+box-sizing: border-box;
+}
+.css-tlfecz-indicatorContainer {
+padding: 3px 8px !important;
+}
+.css-6j8wv5-Input {
+margin: 0px !important;
+padding-bottom: 0px !important;
+padding-top: 0px !important;
+}
+
+.btn{
+    background-color: #0d6efd;;
+}
+.edtbtn-cor{
+    background-color: #0d6efd !important;
+}
+
+.edbtn{
+font-size: 20px;
+/* background-color: #0d6efd; */
+}
+
+.btn-padding-co{
+margin-left:10px!important;
+}
+.uploadinput{position: absolute;
+    margin-top: 41px !important;
+    max-width: 86%;
+    opacity: 0;
+}

@@ -1,0 +1,12 @@
+﻿current_index,message,options,nextIndex
+1,Hello!! What is your name?,"[]",2
+2,What is your Gender?,"[ 
+        ""Male"", 
+        ""Female"", 
+        ""other""
+    ]",3
+3,What is your age?,"[]",4
+4,Select home kit or kiosk?,"[ 
+        ""Home kit"", 
+        ""kiosk""
+    ]",5

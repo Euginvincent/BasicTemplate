@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+.clearfix{
+  clear:both;
+}
+a{
+  text-decoration:none;
+  transition:all 500ms ease;
+  -moz-transition:all 500ms ease;
+  -webkit-transition:all 500ms ease;
+  -ms-transition:all 500ms ease;
+  -o-transition:all 500ms ease;
+}
+a:hover{
+  text-decoration:none;
+  outline:none;
+}
+
+.btn-primary {
+display: flex;
+}
+
+.roombtn {
+  padding-top:35px;
+  padding-bottom:35px;
+  padding-right:20px;
+  padding-left:20px;
+  height:100%; 
+  background-color:green;
+  border-radius:10px;
+  margin-left:10px;
+}
+
+.home-container{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: skyblue;
+  padding-bottom: 7%;
+  padding-top: 5%;
+}
+
+.home-status{
+  /* padding-top: 10px; */
+  padding: 5% 0 0 30%;
+  background-color: skyblue;
+}

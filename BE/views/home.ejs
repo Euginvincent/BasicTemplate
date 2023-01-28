@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Reports</title>
+     
+    <style>
+        /* body{
+            background-color: skyblue;
+        } */
+        .heading{
+            top: 30px;
+            text-align: center;
+            font-weight: bold;
+        }
+        p,h3{
+            margin-left: 10px;
+        }
+        .answer{
+            font-size: 16px;
+            margin-left:15px
+        }
+        .question{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .questions{
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .spanp{
+            font-size: 16px;
+            font-weight: normal;
+        }
+        h4{
+            font-size: 25px;
+        }
+        .imgsrc{
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <h1 class="heading">Survey Report</h1>
+    <img class="imgsrc" src="http://localhost:4001/images/kcrop.png" alt="KevellCare">
+    <h4>Personal Information</h4>
+    <p class="questions">Name : <span class="spanp"><%=exportoffers.Name%></span></p>
+    <p class="question">Email : <span class="spanp"><%=exportoffers.Email%></span></p>
+    <p class="question">Mobile : <span class="spanp"><%=exportoffers.Mobile%></span></p>
+     
+    <h4>Additional Information</h4>
+   
+        <% for(i=0 ; i < exportoffers.Questions.length; i++){%>
+        <p class="question"><%=exportoffers.Questions[i]%></p>
+        <span class="answer"><%=exportoffers.Answers[i]%></span>
+        <% }; %>
+       
+    
+</body>
+ 
+</html> 

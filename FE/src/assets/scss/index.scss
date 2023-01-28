@@ -1,0 +1,22 @@
+.text {
+  &-xs {
+    font-size: 12px !important;
+  }
+  &-sm {
+    font-size: 14px !important;
+  }
+  &-md {
+    font-size: 16px !important;
+  }
+  &-lg {
+    font-size: 18px !important;
+  }
+  &-xl {
+    font-size: 24px !important;
+  }
+  &-xxl {
+    font-size: 32px !important;
+  }
+}
+
+@import './styles.scss';
