@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from 'axios'
-
+import { FormInput } from "./FormInput";
 import ".././style.css";
 
 const RoomType = () => {
@@ -14,36 +14,64 @@ const RoomType = () => {
         status: ""
     });
     const inputsHandler = (e) => {
-        console.log(e.target.id,e.target.value)
-        setInputField({ ...inputField,[e.target.id]: e.target.value })
+        
+        setInputField({ ...inputField, [e.target.id]: e.target.value })
     }
-    //   const [state, setState] = useState({
-    //     roomNo: "",
-    //     category: "",
-    //     roomType: "",
-    //     floor: "",
-    //     disp_1: "",
-    //     disp_2: ""
-    //   });
+    const inputprops = [
+        {
+            id: "roomNo",
+            className: "form-control",
+            type: "number",
+            placeholder: "Room No",
+        },
+        {
+            id: "category",
+            className: "form-control",
+            type: "text",
+            placeholder: "Category"
+        },
+        {
+            id: "roomType",
+            className: "form-control",
+            type: "text",
+            placeholder: "Room Type"
+        },
+        {
+            id: "floor",
+            className: "form-control",
+            type: "number",
+            placeholder: "Floor"
+        },
+        {
+            id: "disp_1",
+            className: "form-control",
+            type: "text",
+            placeholder: "Disp 1"
+        },
+        {
+            id: "disp_2",
+            className: "form-control",
+            type: "text",
+            placeholder: "Disp 2"
+        },
+        {
+            id: "status",
+            className: "form-control",
+            type: "text",
+            placeholder: "Status"
+        }
+    ];
 
-
-    // const handleInputChange = (event) => {
-    //   const { name, value } = event.target;
-    //   setState((prevProps) => ({
-    //     ...prevProps,
-    //     [name]: value
-    //   }));
-    // };
 
     const handleSubmit = async (e) => {
         try {
             e.preventDefault()
             console.log(inputField, "----")
-              await axios.post('http://localhost:4001/api/rooms/create',{
+            await axios.post('http://localhost:4001/api/rooms/create', {
                 ...inputField
-              }).then(res => {
+            }).then(res => {
                 const { data } = res.data
-              })
+            })
         }
         catch (err) {
             console.log(err)
@@ -71,47 +99,67 @@ const RoomType = () => {
                 <div className="container mt-5 mr-2 lg-3" >
                     <div className="form-group">
                         <label className="form-lable" >Room No : </label>
-                        <input type="number"
-                            className="form-control"
-                            id="roomNo"
-                            onChange={inputsHandler}
+                        <FormInput
+                            {...inputprops[0]}
+                            // key={input.id}
                             value={inputField.roomNo || ''}
-                            placeholder="Room No" />
+                            onChange={inputsHandler}
+                        />
                     </div>
                     <div className="form-group">
                         <label className="form-lable">Category : </label>
-                        <input type="text" 
-                        className="form-control" 
-                        id="category" 
-                        onChange={inputsHandler}
-                         value={inputField.category || ''} 
-                         placeholder="Category" />
+                        <FormInput
+                            {...inputprops[1]}
+                            // key={input.id}
+                            value={inputField.category || ''}
+                            onChange={inputsHandler}
+                        />
+
                     </div>
                     <div className="form-group">
                         <label className="form-lable">Room Type : </label>
-                        <input type="text"
-                         className="form-control" id="roomType" 
-                         onChange={inputsHandler} value={inputField.roomType || ''} placeholder="Room Type" />
+                        <FormInput
+                            {...inputprops[2]}
+                            // key={input.id}
+                            value={inputField.roomType || ''}
+                            onChange={inputsHandler}
+                        />
                     </div>
                     <div className="form-group">
                         <label className="form-lable">Floor : </label>
-                        <input type="number" className="form-control"
-                         id="floor" onChange={inputsHandler} value={inputField.floor || ''} placeholder="Floor" />
+                        <FormInput
+                            {...inputprops[3]}
+                            // key={input.id}
+                            value={inputField.floor || ''}
+                            onChange={inputsHandler}
+                        />
                     </div>
                     <div className="form-group">
                         <label className="form-lable">Disp_1 : </label>
-                        <input type="text" className="form-control"
-                         id="disp_1" onChange={inputsHandler} value={inputField.disp_1 || ''} placeholder="Disp_1" />
+                        <FormInput
+                            {...inputprops[4]}
+                            // key={input.id}
+                            value={inputField.disp_1 || ''}
+                            onChange={inputsHandler}
+                        />
                     </div>
                     <div className="form-group">
                         <label className="form-lable">Disp_2 : </label>
-                        <input type="text" className="form-control"
-                         id="disp_2" onChange={inputsHandler} value={inputField.disp_2 || ''} placeholder="Disp_2" />
+                        <FormInput
+                            {...inputprops[5]}
+                            // key={input.id}
+                            value={inputField.disp_2 || ''}
+                            onChange={inputsHandler}
+                        />
                     </div>
                     <div className="form-group">
                         <label className="form-lable">Status : </label>
-                        <input type="text" className="form-control" 
-                        id="status" onChange={inputsHandler} value={inputField.status || ''} placeholder="status" />
+                        <FormInput
+                            {...inputprops[6]}
+                            // key={input.id}
+                            value={inputField.status || ''}
+                            onChange={inputsHandler}
+                        />
                     </div>
 
                 </div>
