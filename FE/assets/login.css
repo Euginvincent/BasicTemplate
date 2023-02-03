@@ -1,0 +1,1842 @@
+/* <--BLOOD TEMPERATURE CSS --> */
+
+
+.user {
+  width: 100%;
+  justify-content: right;
+  align-items: baseline;
+}
+
+body {
+  background: linear-gradient(330.3deg, #37A1A4 34.54%, #235B7C 70.61%);
+}
+
+.dashboard-user-input
+{
+  padding: 20px !important;
+  background: white !important;
+  border-radius: 20px !important;
+  height: 82vh;
+  width: 100%;
+  margin-right: 1%;
+  overflow-y: scroll;
+}
+
+.dashboard-call
+{
+  padding: 20px !important;
+  background: white !important;
+  border-radius: 20px !important;
+  height: 82vh;
+  overflow-y: scroll;
+}
+.dashboard-head
+{
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0px;
+}
+.dashboard-head h1
+{
+  background: linear-gradient(90deg, #F0F0F0 0%, rgba(240, 240, 240, 0) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 25px;
+  position: relative;
+  padding-top: 10px;
+  left: -28px;
+  height: 46px;
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+
+.patient-info h2
+{
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  margin-bottom: 0px;
+  width: 42%;
+}
+.patient-info span
+{
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  margin-bottom: 0px;
+  width: 5%;
+}
+
+.patient-info p
+{
+  font-weight: 400;
+  font-size: 14px;
+  color: #00B8A9;
+  margin-bottom: 0px;
+  width: 55%;
+}
+
+.patient-info ul
+{
+  margin-top: 21px;
+  padding-left: 0px;
+}
+
+.patient-info li
+{
+  margin-top: 10px;
+}
+
+.appointbtn
+{
+  width: 140px;
+  height: 32px;
+  background-color: #00B8A9 !important;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.prescripbtn
+{
+  width: 140px;
+  height: 32px;
+  background-color: #168ACB !important;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  color: white;
+  margin-left: 10px;
+}
+
+.toggle_row h4
+{
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  margin-top: -4px;
+  /* align-items: center; */
+}
+.toggle_row
+{
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.view_all a
+{
+font-size: 14px;
+color: #00B8A9 !important;
+text-decoration-line: underline;
+  
+}
+
+.patient-color .card {
+  /* background-image: url(../src//assets/images/1_card.png); */
+  width: 234px;
+  height: 202px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 15px;
+}
+
+.patient-color .card .value  h5
+{
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+}
+
+.patient-color .card .value  h1
+{
+  margin-top: 12px;
+  font-weight: 600;
+  color: #000000;
+  font-size: 40px;
+}
+
+
+.patient-color .card .value {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.instrument-background
+{
+  /* background: url(../src/assets/images/instrument-background.svg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 304px;
+  padding: 25px;
+  /* position: absolute !important; */
+  bottom: 0px !important;
+  right: 0px !important;
+}
+
+.instrument-background img
+{
+  /* width: 100%; */
+  /* height: 100%; */
+}
+.pt30 {
+  padding-top: 30px;
+}
+
+.pb30 {
+  padding-bottom: 30px;
+}
+
+.pt40 {
+  padding-top: 40px;
+}
+
+.pb40 {
+  padding-bottom: 40px;
+}
+
+.pt60 {
+  padding-top: 60px;
+}
+
+.pb60 {
+  padding-bottom: 60px;
+}
+
+.pt70 {
+  padding-top: 70px;
+}
+
+.pb70 {
+  padding-bottom: 70px;
+}
+
+.pt80 {
+  padding-top: 80px;
+}
+
+.pb80 {
+  padding-bottom: 80px;
+}
+
+.pt100 {
+  padding-top: 100px;
+}
+
+.pb100 {
+  padding-bottom: 100px;
+}
+
+.pt130 {
+  padding-top: 130px;
+}
+
+.pb130 {
+  padding-bottom: 130px;
+}
+
+.pt150 {
+  padding-top: 150px;
+}
+
+.pb150 {
+  padding-bottom: 150px;
+}
+
+.pt180 {
+  padding-top: 180px;
+}
+
+.pb180 {
+  padding-bottom: 180px;
+}
+
+.pt200 {
+  padding-top: 200px;
+}
+
+.pb200 {
+  padding-bottom: 200px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.85;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: inherit;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  color: inherit;
+}
+
+h1 {
+  font-size: 6.4rem;
+}
+
+h2 {
+  font-size: 4.8rem;
+}
+
+h3 {
+  font-size: 3.6rem;
+}
+
+h4 {
+  font-size: 2.8rem;
+}
+
+h5 {
+  font-size: 2.2rem;
+}
+
+h6 {
+  font-size: 1.8rem;
+}
+
+p {
+  line-height: 1.85;
+  font-size: 1.4rem;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  outline: none;
+  text-decoration: none;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+input::-webkit-input-placeholder,
+.form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+input:-moz-placeholder,
+.form-control:-moz-placeholder {
+  color: #fff;
+}
+input::-moz-placeholder,
+.form-control::-moz-placeholder {
+  color: #fff;
+}
+input:-ms-input-placeholder,
+.form-control:-ms-input-placeholder {
+  color: #fff;
+}
+
+button, .btn {
+  border: 0;
+  background: transparent;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.primary-color {
+  color: #1e85ff;
+}
+
+.primary-bg {
+  background: #1e85ff;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.white-bg {
+  background: #ffffff;
+}
+
+.ugf-bg {
+  background-size: cover;
+}
+
+
+.ugf-wrapper {
+  position: relative;
+  min-height: 100vh; }
+  .ugf-wrapper .logo {
+    width: 40%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 3; }
+    .ugf-wrapper .logo .logo-black {
+      display: none; }
+    .ugf-wrapper .logo .logo-white {
+      display: block; }
+  .ugf-wrapper .ugf-content-block {
+    position: absolute;
+    width: 810px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url(../../assets/images/bg/job-bg.jpg);
+   /* // background: url(../images/bg/job-bg.jpg) no-repeat center; */
+   background-repeat: no-repeat;
+   background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .ugf-wrapper .ugf-content-block .content-block {
+      padding-left: 200px;
+      padding-right: 60px; }
+      .ugf-wrapper .ugf-content-block .content-block h1 {
+        font-size: 4.0rem;
+        font-weight: 700;
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 30px; }
+      .ugf-wrapper .ugf-content-block .content-block p {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #ffffff;
+        font-family: "Poppins", sans-serif; }
+  .ugf-wrapper .footer {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 3;
+    width: 810px;
+    padding: 0 50px; }
+    .ugf-wrapper .footer .copyright {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1; }
+      .ugf-wrapper .footer .copyright p {
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #ffffff;
+        font-family: "Poppins", sans-serif; }
+    .ugf-wrapper .footer .social-links {
+      -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+      order: 2; }
+      .ugf-wrapper .footer .social-links a {
+        margin-right: 15px;
+        color: #ffffff; }
+        .ugf-wrapper .footer .social-links a:last-child {
+          margin-right: 0; }
+        .ugf-wrapper .footer .social-links a i {
+          font-size: 1.6rem; }
+
+.form-steps {
+  display: none; }
+  .form-steps.active {
+    display: block; }
+
+.ufg-job-application-wrapper {
+  padding-bottom: 100px;
+  max-width: 400px; }
+  .ufg-job-application-wrapper .progress {
+    background: #eff1f3;
+    height: 8px;
+    overflow: visible;
+    border-radius: 4px;
+    margin-bottom: 38px; }
+    .ufg-job-application-wrapper .progress .progress-bar {
+      position: relative;
+      overflow: visible;
+      line-height: 1.7;
+      border-radius: 4px;
+      background: #01b681; }
+      .ufg-job-application-wrapper .progress .progress-bar .step-text {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #fff;
+        font-family: "Poppins", sans-serif;
+        text-transform: uppercase; }
+       
+  .ufg-job-application-wrapper .prev {
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    margin-bottom: 20px; }
+    .ufg-job-application-wrapper .prev i {
+      margin-right: 8px; }
+  .ufg-job-application-wrapper h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 30px; }
+    .ufg-job-application-wrapper h3 span {
+      font-size: 1.6rem;
+      font-weight: 400; }
+    .ufg-job-application-wrapper h3.border-bottom {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+      margin-bottom: 25px; }
+  .ufg-job-application-wrapper .job-application-form .block-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px; }
+  .ufg-job-application-wrapper .job-application-form .form-group + .block-title {
+    margin-top: 25px; }
+  .ufg-job-application-wrapper .job-application-form .form-group {
+    position: relative;
+    margin-bottom: 25px; }
+    .ufg-job-application-wrapper .job-application-form .form-group.check-gender {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: relative;
+      padding-top: 25px; }
+      .ufg-job-application-wrapper .job-application-form .form-group.check-gender .lebel-text {
+        position: absolute;
+        top: -5px;
+        left: 0;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #fff;
+        font-family: "Poppins", sans-serif; }
+      .ufg-job-application-wrapper .job-application-form .form-group.check-gender .custom-radio {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 135px;
+        flex: 0 0 135px;
+        height: 60px;
+        margin-right: 20px; }
+        .ufg-job-application-wrapper .job-application-form .form-group.check-gender .custom-radio .custom-control-input {
+          display: none;
+          outline: none;
+          -webkit-box-shadow: none;
+          box-shadow: none;
+          -moz-appearance: none;
+          -webkit-appearance: none;
+          appearance: none; }
+          .ufg-job-application-wrapper .job-application-form .form-group.check-gender .custom-radio .custom-control-input:checked ~ .custom-control-label {
+            border-color: #01b681;
+            color: #01b681; }
+          .ufg-job-application-wrapper .job-application-form .form-group.check-gender .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+            background: #01b681; 
+        
+        }
+          .ufg-job-application-wrapper .job-application-form .form-group.check-gender .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+            background-image: url(../../assets/images/check-white.svg);
+           
+          }
+        .ufg-job-application-wrapper .job-application-form .form-group.check-gender .custom-radio .custom-control-label {
+          cursor: pointer;
+          height: 60px;
+          border: 1px solid rgba(255, 255, 255, 0.15);
+          border-radius: 5px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          font-size: 1.5rem;
+          font-weight: 400;
+          font-family: "Poppins", sans-serif;
+          color: #b2becc;
+          padding-left: 58px;
+          text-transform: capitalize;
+          position: relative;
+          top: 0;
+          left: 0; }
+          .ufg-job-application-wrapper .job-application-form .form-group.check-gender .custom-radio .custom-control-label:before {
+            height: 18px;
+            width: 18px;
+            border-radius: 5px;
+            background: #e1e7ee;
+            border: none;
+            top: 19px;
+            left: 20px; }
+          .ufg-job-application-wrapper .job-application-form .form-group.check-gender .custom-radio .custom-control-label:after {
+            height: 18px;
+            width: 18px;
+            top: 20px;
+            left: 20px; }
+    .ufg-job-application-wrapper .job-application-form .form-group.radio-group {
+      margin-bottom: 15px; }
+      .ufg-job-application-wrapper .job-application-form .form-group.radio-group:nth-last-child(2) {
+        margin-bottom: 25px; }
+      .ufg-job-application-wrapper .job-application-form .form-group.radio-group .custom-radio .custom-control-input {
+        display: none; }
+        .ufg-job-application-wrapper .job-application-form .form-group.radio-group .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+          border-width: 2px;
+          border-color: #01b681;
+          background: #ffffff; }
+        .ufg-job-application-wrapper .job-application-form .form-group.radio-group .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+          opacity: 1; }
+      .ufg-job-application-wrapper .job-application-form .form-group.radio-group .custom-radio .custom-control-label {
+        width: auto;
+        text-align: left;
+        position: static;
+        top: auto;
+        left: auto;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        padding-left: 30px;
+        cursor: default;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #fff; }
+        .ufg-job-application-wrapper .job-application-form .form-group.radio-group .custom-radio .custom-control-label:before {
+          top: 2px;
+          left: 0;
+          height: 20px;
+          width: 20px;
+          border-radius: 50%;
+          border: 1px solid rgba(0, 0, 0, 0.12);
+          -webkit-box-shadow: none;
+          box-shadow: none;
+          outline: none; }
+        .ufg-job-application-wrapper .job-application-form .form-group.radio-group .custom-radio .custom-control-label:after {
+          top: 7px;
+          left: 5px;
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          background: #01b681;
+          opacity: 0;
+          content: '';
+          -webkit-transition: all .3s ease;
+          -o-transition: all .3s ease;
+          transition: all .3s ease; }
+    .ufg-job-application-wrapper .job-application-form .form-group.check-group {
+      margin-bottom: 15px; }
+      .ufg-job-application-wrapper .job-application-form .form-group.check-group:nth-last-child(2) {
+        margin-bottom: 25px; }
+      .ufg-job-application-wrapper .job-application-form .form-group.check-group .custom-checkbox .custom-control-input {
+        height: 18px;
+        width: 18px;
+        border-radius: 3px;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        outline: none;
+        -webkit-box-shadow: none;
+        box-shadow: none; }
+        .ufg-job-application-wrapper .job-application-form .form-group.check-group .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+          background: #01b681; }
+      .ufg-job-application-wrapper .job-application-form .form-group.check-group .custom-checkbox .custom-control-label {
+        width: auto;
+        text-align: left;
+        position: static;
+        top: auto;
+        left: auto;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        padding-left: 30px;
+        cursor: default;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #fff; }
+        .ufg-job-application-wrapper .job-application-form .form-group.check-group .custom-checkbox .custom-control-label:before {
+          top: 4px;
+          left: 0;
+          height: 18px;
+          width: 18px;
+          border-radius: 3px;
+          border: 1px solid rgba(0, 0, 0, 0.12);
+          -webkit-box-shadow: none;
+          box-shadow: none;
+          outline: none; }
+        .ufg-job-application-wrapper .job-application-form .form-group.check-group .custom-checkbox .custom-control-label:after {
+          top: 4px;
+          left: 0;
+          height: 18px;
+          width: 18px; }
+        .ufg-job-application-wrapper .job-application-form .form-group.check-group .custom-checkbox .custom-control-label a {
+          color: #01b681; }
+
+      .ufg-job-application-wrapper .job-application-form .form-group .form-control:focus, .ufg-job-application-wrapper .job-application-form .form-group .form-control:valid {
+        border-color: rgba(1, 182, 129, 0.5);
+        color: #fff !important; }
+        .ufg-job-application-wrapper .job-application-form .form-group .form-control:focus + label, .ufg-job-application-wrapper .job-application-form .form-group .form-control:valid + label {
+          top: 7px;
+          font-size: 1.2rem;
+          color: #01b681; }
+    .ufg-job-application-wrapper .job-application-form .form-group .select-input {
+      position: relative; }
+      .ufg-job-application-wrapper .job-application-form .form-group .select-input span {
+        position: absolute;
+        top: 27px;
+        right: 15px;
+        height: 0;
+        width: 0;
+        border-top: 6px solid #b2becc;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent; }
+      .ufg-job-application-wrapper .job-application-form .form-group .select-input .form-control {
+        padding-right: 0;
+        padding-top: 0;
+        line-height: 60px;
+        color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        border-radius: 5px;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none; border: 1px solid rgba(255, 255, 255, 0.15); }
+        .ufg-job-application-wrapper .job-application-form .form-group .select-input .form-control option {
+          color: #000; }
+    .ufg-job-application-wrapper .job-application-form .form-group label {
+      position: absolute;
+      top: 18px;
+      margin-bottom: 0;
+      left: 17px;
+      z-index: 2;
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: rgb(255, 255, 255, 0.5)
+      ;
+      -webkit-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      transition: all .3s ease;
+      cursor: text; }
+    .ufg-job-application-wrapper .job-application-form .form-group textarea.form-control {
+      height: 140px;
+      padding-top: 25px;
+      line-height: 1.7;
+      border: 1px solid rgba(255, 255, 255, 0.15); }
+    .ufg-job-application-wrapper .job-application-form .form-group .custom-file {
+      height: 52px;
+      display: block; }
+      .ufg-job-application-wrapper .job-application-form .form-group .custom-file .form-control {
+        outline: none;
+        display: none;
+        -webkit-box-shadow: none;
+        box-shadow: none; }
+        .ufg-job-application-wrapper .job-application-form .form-group .custom-file .form-control + .custom-file-label {
+          top: 0; }
+        .ufg-job-application-wrapper .job-application-form .form-group .custom-file .form-control:focus {
+          outline: none;
+          -webkit-box-shadow: none;
+          box-shadow: none; }
+      .ufg-job-application-wrapper .job-application-form .form-group .custom-file .custom-file-label {
+        cursor: pointer;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 0;
+        height: 60px;
+        border-radius: 30px;
+        padding: 0;
+        color: #b2becc;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        padding-left: 140px;
+        line-height: 60px; background-color: transparent; }
+        .ufg-job-application-wrapper .job-application-form .form-group .custom-file .custom-file-label:after {
+          content: '+ CHOOSE FILE';
+          top: 16px;
+          left: 25px;
+          right: auto;
+          font-size: 1.2rem;
+          color: #fff;
+          background: rgba(255, 255, 255, 0.15);
+          border-radius: 20px;
+          border: 0; }
+  .ufg-job-application-wrapper .job-application-form .btn {
+    height: 60px;
+    width: 200px;
+    display: block;
+    background: #01b681;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; 
+    float:right}
+
+.final-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 120px 0;
+  text-align: center; }
+  .final-content .icon {
+    margin-bottom: 20px; }
+  .final-content h2 {
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 10px; }
+  .final-content p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Poppins", sans-serif; }
+
+@media all and (max-width: 1439px) {
+  .ugf-wrapper .ugf-content-block,
+  .ugf-wrapper .footer {
+    width: 680px; }
+  .ugf-wrapper .ugf-content-block .content-block {
+    padding-left: 100px; } }
+
+@media all and (max-width: 1199px) {
+  .ugf-wrapper .ugf-content-block,
+  .ugf-wrapper .footer {
+    width: 565px; }
+  .ugf-wrapper .ugf-content-block .content-block {
+    padding-left: 100px; } }
+
+@media all and (max-width: 991px) {
+  .ugf-wrapper .logo {
+    width: 690px;
+    padding: 0;
+    margin: 30px auto 0;
+    position: static; }
+    .ugf-wrapper .logo .logo-black {
+      display: block; }
+    .ugf-wrapper .logo .logo-white {
+      display: none; }
+  .ugf-wrapper .ugf-content-block {
+    display: none; }
+  .ugf-wrapper .ufg-job-application-wrapper .progress {
+    margin-bottom: 50px; }
+  .ugf-wrapper .footer {
+    width: 690px;
+    padding: 0;
+    margin: 0 auto 20px;
+    position: static; }
+    .ugf-wrapper .footer .copyright p {
+      color: #fff; }
+    .ugf-wrapper .footer .social-links a {
+      color: #fff; } }
+
+@media all and (max-width: 767px) {
+  .ugf-wrapper .logo,
+  .ugf-wrapper .footer {
+    width: 510px; } }
+    .ugf-wraper { height: auto; }
+
+@media all and (max-width: 575px) {
+  .ugf-wrapper .logo,
+  .ugf-wrapper .footer {
+    width: 100%;
+    padding: 0 15px; }
+  .ugf-wrapper .footer {
+    display: block; }
+    .ugf-wrapper .footer .copyright {
+      margin-top: 15px; } 
+      .ugf-wraper { height: auto; }
+    }
+
+      .ugf-wraper {
+       /* // background: url(../images/bg/donation-3-bg.jpg) no-repeat center left; */
+        /* background: url(../images/bg/background\ img\ kevellcare.png) no-repeat center left,linear-gradient(269deg, #37A1A4 34.54%, #235B7C 70.61%); */
+        background-image: url(../../assets/images/bg/donation-3-bg.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        /* height: 100vh; */
+        width: 100%;
+      }
+      
+      .ugf-donation {
+        padding: 50px 0;
+      }
+      
+      .ugf-donation .logo {
+        margin-bottom: 70px;
+      }
+      
+      .ugf-donation h1 {
+        font-size: 3.6rem;
+        font-weight: 700;
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        line-height: 1.55;
+        display: inline-block;
+        margin-bottom: 50px;
+        position: relative;
+      }
+      
+      .ugf-donation form .form-block {
+        margin-bottom: 55px;
+      }
+      
+      .ugf-donation form .form-block.mb0 {
+        margin-bottom: 0;
+      }
+      
+      .ugf-donation form .form-block .block-title {
+        font-size: 2.4rem;
+        font-weight: 700;
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 30px;
+      }
+      
+      .ugf-donation form label {
+        font-size: 1.2rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-bottom: 8px;
+      }
+      
+      .ugf-donation form .amount-select {
+        margin-bottom: 15px;
+      }
+      
+      .ugf-donation form .amount-select .amount-preset {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+      }
+      
+      .ugf-donation form .amount-select .amount-preset span {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100px;
+        flex: 0 0 100px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        height: 65px;
+        border-radius: 0;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        color: rgba(255, 255, 255, 0.5);
+        line-height: 65px;
+        font-size: 1.8rem;
+        font-weight: 700;
+        text-align: center;
+        cursor: pointer;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
+      }
+      
+      .ugf-donation form .amount-select .amount-preset span:last-child {
+        margin-right: 0;
+      }
+      
+      .ugf-donation form .amount-select .amount-preset span.active {
+        background: #dda12d;
+        color: #ffffff;
+        border-color: #dda12d;
+      }
+      
+      .ugf-donation form .form-group {
+        margin-bottom: 25px;
+      }
+      
+      .ugf-donation form .form-group .input-group .input-group-prepend {
+        background: transparent;
+        width: 70px;
+        border-radius: 0;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-right: 0;
+      } 
+      
+      .ugf-donation form .form-group .input-group .input-group-prepend .input-group-text {
+        background: transparent;
+        border: none;
+        margin: 0 auto;
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 0.5);
+        padding: 0;
+      }
+      
+      .ugf-donation form .form-group .input-group .form-control {
+        max-width: 200px;
+        background: transparent;
+        height: 60px;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        outline: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0 25px;
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #ffffff;
+      }
+      
+      .ugf-donation form .form-group .input-group .form-control::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: rgba(255, 255, 255, 0.5);
+      }
+      
+      .ugf-donation form .form-group .input-group .form-control::-moz-placeholder {
+        /* Firefox 19+ */
+        color: rgba(255, 255, 255, 0.5);
+      }
+      
+      .ugf-donation form .form-group .input-group .form-control:-ms-input-placeholder {
+        /* IE 10+ */
+        color: rgba(255, 255, 255, 0.5);
+      }
+      
+      .ugf-donation form .form-group .input-group .form-control:-moz-placeholder {
+        /* Firefox 18- */
+        color: rgba(255, 255, 255, 0.5);
+      }
+      
+      .ugf-donation form .form-group.donation-period {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        padding-top: 10px;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+      }
+      
+      .ugf-donation form .form-group.donation-period .custom-radio {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(50% - 15px);
+        flex: 0 0 calc(50% - 15px);
+      }
+      
+      .ugf-donation form .form-group.donation-period .custom-radio .custom-control-input {
+        display: none;
+        outline: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+      }
+      
+      .ugf-donation form .form-group.donation-period .custom-radio .custom-control-input:checked ~ .custom-control-label {
+        border-color: rgba(221, 161, 45, 0.5);
+      }
+      
+      .ugf-donation form .form-group.donation-period .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+        background: #dda12d;
+      }
+      
+      .ugf-donation form .form-group.donation-period .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+        background-image: none;
+        content: url(../../assets/images/check-white.svg);
+       
+      }
+      
+      .ugf-donation form .form-group.donation-period .custom-radio .custom-control-label {
+        cursor: pointer;
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: 0;
+        font-size: 1.5rem;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        color: #b2becc;
+        padding: 20px 15px 20px 50px;
+        text-transform: capitalize;
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: #ffffff;
+      }
+      
+      .ugf-donation form .form-group.donation-period .custom-radio .custom-control-label span {
+        display: block;
+        margin-top: 15px;
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        line-height: 1.57;
+      }
+      
+      .ugf-donation form .form-group.donation-period .custom-radio .custom-control-label:before {
+        height: 22px;
+        width: 22px;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        background: transparent;
+        top: 22px;
+        left: 15px;
+      }
+      
+      .ugf-donation form .form-group.donation-period .custom-radio .custom-control-label:after {
+        height: 15px;
+        width: 15px;
+        top: 22px;
+        left: 17px;
+        border-radius: 50%;
+      }
+      
+      .ugf-donation form .form-group .select-input {
+        position: relative;
+      }
+      
+      .ugf-donation form .form-group .select-input span {
+        position: absolute;
+        top: 27px;
+        right: 15px;
+        height: 0;
+        width: 0;
+        border-top: 6px solid rgba(255, 255, 255, 0.5);
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+      }
+      
+      .ugf-donation form .form-group .select-input .form-control {
+        padding-right: 0;
+        padding-left: 15px;
+        color: rgba(255, 255, 255, 0.5);
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+      }
+      
+      .ugf-donation form .form-group .select-input .form-control option {
+        color: #fff;
+      }
+      
+      .ugf-donation form .form-group .form-control {
+        color: #ffffff;
+        background: transparent;
+        height: 60px;
+        border-radius: 0;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        outline: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        padding: 0 25px;
+        font-size: 1.5rem;
+        font-weight: 400;
+      }
+      
+      .ugf-donation form .form-group .form-control::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: rgba(255, 255, 255, 0.5);
+      }
+      
+      .ugf-donation form .form-group .form-control::-moz-placeholder {
+        /* Firefox 19+ */
+        color: rgba(255, 255, 255, 0.5);
+      }
+      
+      .ugf-donation form .form-group .form-control:-ms-input-placeholder {
+        /* IE 10+ */
+        color: rgba(255, 255, 255, 0.5);
+      }
+      
+      .ugf-donation form .form-group .form-control:-moz-placeholder {
+        /* Firefox 18- */
+        color: rgba(255, 255, 255, 0.5);
+      }
+      
+      .ugf-donation form .btn {
+        height: 60px;
+        width: 100%;
+        background: #dda12d;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #ffffff;
+        border-radius: 0;
+        border: 0;
+        outline: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        margin-top: 25px;
+      }
+      
+      .ugf-block-separator {
+        height: 85px;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: relative;
+      }
+      
+      .ugf-block-separator:before {
+        position: absolute;
+        top: calc(50% - 1px);
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.15);
+        content: '';
+        z-index: 1;
+      }
+      
+      .ugf-block-separator p {
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #ffffff;
+        background: #1a110e;
+        position: relative;
+        z-index: 2;
+        padding: 0 15px;
+        font-family: "Poppins", sans-serif;
+      }
+      
+      .alternet-payment .btn {
+        width: 100%;
+        height: 60px;
+        border-radius: 0;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        font-size: 1.4rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        color: #fff;
+        background: #ffffff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-shadow: 0px 5px 8px 0px #1a110e;
+        box-shadow: 0px 5px 8px 0px #1a110e;
+      }
+      
+      .alternet-payment .btn + .btn {
+        margin-top: 25px;
+      }
+      
+      .alternet-payment .btn img {
+        margin-left: 10px;
+      }
+      
+      .donation-thumb-wrap.mt30,
+      .donation-thumb-wrap-2.mt30 {
+        margin-top: 30px;
+      }
+      
+      .donation-thumb-wrap .donation-thumb,
+      .donation-thumb-wrap-2 .donation-thumb {
+        position: relative;
+      }
+      
+      .donation-thumb-wrap .donation-thumb span,
+      .donation-thumb-wrap-2 .donation-thumb span {
+        position: absolute;
+        top: -45px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background: #ffffff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+      
+      .donation-thumb-wrap .donation-thumb .thumb,
+      .donation-thumb-wrap-2 .donation-thumb .thumb {
+        border-radius: 20px;
+        margin-bottom: 30px;
+      }
+      
+      .donation-thumb-wrap-2.mt30 {
+        margin-top: -70px;
+      }
+      
+      .ugf-dontation-wrap {
+        position: relative;
+      }
+      
+      .block-item {
+        position: relative;
+      }
+      
+      .block-item .donation-thumb-wrap,
+      .block-item .donation-thumb-wrap-2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      
+      .widget {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-height: 100vh;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 50px 0;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+      }
+      
+      .widget .social-link ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      }
+      
+      .widget .social-link ul li a {
+        color: #ffffff;
+        font-size: 1.6rem;
+      }
+      
+      .widget .social-link ul li a:hover {
+        color: #dda12d;
+      }
+      
+      .widget .social-link ul li + li {
+        margin-left: 20px;
+      }
+      
+      .widget .footer p {
+        color: #ffffff;
+        font-size: 1.4rem;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+      }
+      
+      .widget .footer p a:hover {
+        color: #dda12d;
+      }
+      
+      .final-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-height: 100vh;
+        padding: 120px 15px;
+        text-align: center;
+      }
+      
+      .final-content .icon {
+        margin-bottom: 20px;
+      }
+      
+      .final-content h2 {
+        font-size: 3.6rem;
+        font-weight: 700;
+        color: #fff;
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 10px;
+      }
+      
+      .final-content p {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #fff;
+        font-family: "Poppins", sans-serif;
+      }
+      
+      .final-content .btn {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        height: 65px;
+        line-height: 65px;
+        width: 170px;
+        text-align: center;
+        border-radius: 10px;
+        background: #dda12d;
+        margin-top: 40px;
+        padding: 0;
+        outline: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+      }
+      
+      .logo img { width: 310px; }
+
+      @media all and (min-width: 1200px) {
+        .container {
+          max-width: 1170px;
+        }
+      }
+      
+      @media all and (max-width: 1199px) {
+        .ugf-donation h1 br {
+          display: none;
+        }
+      }
+      
+      @media all and (max-width: 991px) {
+        .ugf-donation h1 br {
+          display: block;
+        }
+        .block-item {
+          display: none;
+        }
+        .widget {
+          position: static;
+          display: block;
+          min-height: auto;
+          padding: 0 0 50px 0;
+        }
+        .widget .footer {
+          margin-top: 10px;
+        }
+        .widget .footer p {
+          color: #ffffff;
+          font-size: 1.4rem;
+          font-weight: 400;
+          font-family: "Poppins", sans-serif;
+        }
+        .widget .footer p a:hover {
+          color: #dda12d;
+        }
+      }
+      
+      @media all and (max-width: 575px) {
+        .ugf-donation h1 {
+          font-size: 3.2rem;
+        }
+        .ugf-donation form .amount-select .amount-preset span {
+          font-size: 1.4rem;
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 70px;
+          flex: 0 0 70px;
+          height: 50px;
+          line-height: 50px;
+        }
+      }
+      
+      @media all and (max-width: 450px) {
+        .ugf-donation h1 br {
+          display: none;
+        }
+        .ugf-donation form .form-group.donation-period {
+          display: block;
+        }
+        .ugf-donation form .form-group.donation-period .custom-radio:first-child {
+          margin-bottom: 20px;
+        }
+      }
+
+      /*-----------New Style-----------*/
+      #new-label{
+        padding-left: 17px;
+      }
+      .footer a{
+        color:darkgreen;
+      }
+
+      #prev-step{
+        padding-top: 40px;
+      }
+     /* .btn-app{
+      height: 60px;
+    width: 200px;
+    display: block;
+    background: #01b681;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; 
+    float:right;
+     } */
+     .btn-app {
+      height: 42px;
+      width: 149px;
+      display: block;
+      background: #01b681;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #ffffff;
+      font-family: "Poppins", sans-serif;
+      border-radius: 5px;
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      float: right;
+  }
+
+     /*--------------------------Style for Appointment Page Starts--------------------*/
+  
+ #DoctorLocationlist{
+   background-color: rgb(4,38,21);
+   color:rgb(255, 255, 255, 0.5) !important;
+   
+ }
+
+#label-head{
+  color:rgba(255, 255, 255, 0.5);
+}
+
+#text-area{
+  height:100px;
+}
+#input-11{
+  color:rgba(255, 255, 255, 0.5);
+  padding-left: 15px;
+  padding-right: 13px;
+ 
+}
+
+::-webkit-calendar-picker-indicator{
+  /* background-color: rgba(5, 68, 37, 0.5) !important;
+  border-radius: 5px;
+  color:#dda12d !important; */
+  filter: invert(0.9112);
+  opacity: 0.6;
+}
+.form-select {
+  width: 100%;
+  padding: 18px;
+  /* Replace Default styling (arrow) */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 10.127L12 18.127L20 10.127H4Z" fill="%238E8E93"/></svg>');
+
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-position-x: 98%;
+  background-color:#042615;
+  color:rgba(255, 255, 255, 0.5);
+  border:1px solid rgba(255, 255, 255, 0.25);
+  font-size: 1.5rem;
+  
+}
+.form-select:focus,
+.form-select:hover{
+  outline: none;
+ 
+}
+#pre-1{
+  padding-left: 20px;
+}
+#eye-1{
+  color:rgba(255, 255, 255, 0.5);
+  font-size: 25px;
+  margin-top: 18px;
+ 
+  
+}
+
+.forgot-pass {
+  font-size: 1.4rem;
+ font-weight: 300;
+ margin-top:10px;
+ text-align: center;
+}
+.forgot-pass p{
+ color:blue;
+}
+/* .wrap { padding: 15px; } */
+h1 { font-size: 28px; }
+h4,
+modal-title { font-size: 18px; font-weight: bold; }
+
+.no-borders { border: 0px; }
+.body-message { font-size: 12px; }
+.centered { text-align: center; }
+.btn-modal-1 { background-color: #01b681; border-color: transparent; outline: none; border-radius: 8px; font-size: 15px; padding: 10px 40px; color: white; }
+.btn-modal-2 { background-color: #01b681; border-color: transparent; outline: none; border-radius: 8px; font-size: 15px; padding: 10px 40px; color: white;}
+
+
+.table tr td{
+  /* color: darkcyan !important; */
+}
+#mod-cont-3{
+
+  width: 700px;
+}
+.modal.show .modal-dialog {
+  -webkit-transform: none;
+  transform: none;
+  display: table;
+  margin-top: 59px !important;
+  margin: auto;
+  /* width: 700px !important; */
+}
+ #lang{
+
+  background-color: #63d4b3;
+  color: white;
+  margin-top: 20px;
+  float: right;
+ 
+  margin-top: 50px;
+  
+}
+#dropdownMenuButton {
+  padding: 10px 25px;
+  background: white !important;
+  color: black !important;
+  position: absolute;
+  right: 20px;
+  font-size: 14px;
+}
+.modal-header {
+  display: block !important;
+  /* justify-content: space-between; */
+  /* padding: 1rem 1rem; */
+  border-bottom: 1px solid #dee2e6;
+  border-top-left-radius: calc(.3rem - 1px);
+  border-top-right-radius: calc(.3rem - 1px);
+}
+.modal-header h3 {
+  
+  padding: 0px;
+  /* text-align: center !important; */
+  /* text-align: center; */
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: -17px;
+  color: #000000;
+}
+/* .modal-dialog{
+  background: #dda12d !important;
+} */
+/*--------------------------style for Appointment page Ends----------------------*/
+
+
+
+/*-----------------------------style for Login page Starts -----------------*/
+#log-btn{
+  /* margin-left: 90px; */
+   width:400px;
+   color:white;
+   background-color: rgb(1,182,129) !important;
+   padding-top:10px;
+   padding-bottom:10px;
+   font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+}
+
+/*-----------------------------style for Login page Ends ------------------*/
+ .two-2 label { color: #000000 !important;}
+ .one-1 label { color: #000000 !important;}
+
+
+
+
+/*------------------------------------------
+	Responsive
+-------------------------------------------*/
+@media (max-width: 991px) {
+  .right-content-md {
+    margin-top: 30px;
+  }
+}
+@media all and (max-width: 767px) {
+  .right-content-sm {
+    margin-top: 30px;
+  }
+}
+
+
+
+
+
+.picture_group .custom-file .custom-file-label{
+  border: none !important;
+}
+.picture_group .picture_custom_file {
+  display: flex !important;
+  flex-direction: row;
+}
+.picture_group .picture_custom_file p{
+  margin: 0px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px !important;
+  font-size: 19px;
+  font-weight: 400;
+  color: rgb(255 255 255);
+  font-family: "Poppins", sans-serif;
+}
+.ufg-job-application-wrapper .job-application-form .form-group.check-gender {
+  justify-content: space-between;
+}
+.ufg-job-application-wrapper .job-application-form .form-group.check-gender .custom-radio {
+  flex: initial;
+  margin-right: 0px;
+  width: 47%;
+}
+.role_div{
+  color: #7a9383 !important;
+  background: transparent !important;
+  height: 60px !important;
+  border-radius: 0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  padding: 0 25px !important;
+  font-size: 1.5rem !important;
+  font-weight: 400 !important;
+  font-family: "Roboto", sans-serif !important;
+}
+.role_div option{
+  background-color: #26483a;
+}
+.wrap button:focus{
+  outline: none;
+}
+.footer_bottom{
+  margin-left: auto;
+  margin-right: 100px;
+}
+
+.headingcolor{
+  font-size: 2.6rem;
+  color: #000000;
+  margin-top: 20px;
+  padding: 50px 25px 50px 200px;
+}
+.copyrights{
+  display: inline-flex;
+  font-size: 16px;
+}
+.login-fluid{
+  padding: 0px 0px;
+}
+.userlogin-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}

@@ -2,6 +2,8 @@ import React from 'react';
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import './App.css';
 
+import Login from './components/User_Login/Login';
+import SignUp from './components/User_Login/SignupPage';
 import Home from './components/Home';
 import About from './components/About';
 import Online from './components/Online';
@@ -34,7 +36,10 @@ function App() {
         {/* Add Menu Component */}
         <Header />
         <Switch> 
-          <Route exact path="/" component={Home}/>
+          <Route exact path="/" component={Login} />
+          <Route path="/SignupPage" component={SignUp}/>
+
+          <Route exact path="/Home" component={Home}/>
           <Route path="/About" component={About}/>
           <Route path="/Online" component={Online}/>
           <Route path="/Offline" component={Offline}/>
