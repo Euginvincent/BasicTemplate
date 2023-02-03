@@ -17,6 +17,7 @@ const RoomsController = () =>{
           const obj = {
             "roomNo" : roomsInput.roomNo,
             "category" : roomsInput.category,
+            "roomType" : roomsInput.roomType,
             "floor" : roomsInput.floor,
             "disp_1" : roomsInput.disp_1,
             "disp_2" : roomsInput.disp_2,
